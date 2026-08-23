@@ -1,0 +1,21 @@
+# MATLAB
+*.asv
+*.m~
+*.autosave
+
+# MATLAB generated files
+*.mex*
+*.mexw*
+*.mexmaci*
+*.mexglx*
+
+# MATLAB build/package files
+*.mlpkginstall
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
