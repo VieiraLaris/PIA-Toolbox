@@ -18,6 +18,10 @@ classdef PIAMembershipFunction
             obj.Type = type;
             obj.Parameters = parameters;
         end
+        
+        % Atualiza o índice do ID
+        function obj = updateID(obj, id)
+            obj.ID = id;
+        end
     end
 end
-
