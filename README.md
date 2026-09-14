@@ -34,7 +34,7 @@ src/
 
 ## Execução
 
-Para utilizar a toolbox, primeiro configure o MATLAB Path executando:
+Com o MATLAB aberto na pasta src da toolbox, configure o MATLAB Path executando:
 
 ```matlab
 setupPIA
