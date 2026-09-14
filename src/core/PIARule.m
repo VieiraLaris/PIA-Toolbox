@@ -8,18 +8,19 @@ classdef PIARule
     properties
         Antecedent double
         Consequent double
-        Weight double = 1
-        Operator double = 1
-        Relationships
-        InputWeights double
     end
     
     methods
         function obj = PIARule(id, antecedent, consequent)
+            % Construtor
+
             obj.ID = id;
             obj.Antecedent = antecedent;
             obj.Consequent = consequent;
         end
+
+        function obj = updateID(obj, id)
+            obj.ID = id;
+        end
     end
 end
-
