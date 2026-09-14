@@ -48,40 +48,23 @@ pia = PIASystem("Nome do Sistema");
 
 ## Resumo dos Comandos
 
-### Sistema
-
-| Comando              | Descrição                                        |
-| -------------------- | ------------------------------------------------ |
-| `PIASystem("nome")`  | Cria um novo sistema PIA                         |
-| `setupPIA()`         | Configura os caminhos necessários para a toolbox |
-| `runPIA(pia, input)` | Executa o sistema e retorna a saída              |
-
-### Inputs e Outputs
-
-| Comando                                | Descrição                        |
-| -------------------------------------- | -------------------------------- |
-| `addInput(pia, "nome", range)`         | Adiciona uma variável de entrada |
-| `updateInput(pia, id, "nome", range)`  | Atualiza uma variável de entrada |
-| `deleteInput(pia, id)`                 | Remove uma variável de entrada   |
-| `addOutput(pia, "nome", range)`        | Adiciona uma variável de saída   |
-| `updateOutput(pia, id, "nome", range)` | Atualiza uma variável de saída   |
-| `deleteOutput(pia, id)`                | Remove uma variável de saída     |
-
-### Funções de Pertinência
-
-| Comando                                                         | Descrição                          |
-| --------------------------------------------------------------- | ---------------------------------- |
-| `addMF(pia, "tipo", id, "tipoMF", parametros, "nome")`          | Adiciona uma função de pertinência |
+| Comando | Descrição |
+| ------- | --------- |
+| `PIASystem("nome")` | Cria um novo sistema PIA |
+| `setupPIA()` | Configura os caminhos necessários para a toolbox |
+| `runPIA(pia, input)` | Executa o sistema e retorna a saída |
+| `addInput(pia, "nome", range)` | Adiciona uma variável de entrada |
+| `updateInput(pia, id, "nome", range)` | Atualiza uma variável de entrada |
+| `deleteInput(pia, id)` | Remove uma variável de entrada |
+| `addOutput(pia, "nome", range)` | Adiciona uma variável de saída |
+| `updateOutput(pia, id, "nome", range)` | Atualiza uma variável de saída |
+| `deleteOutput(pia, id)` | Remove uma variável de saída |
+| `addMF(pia, "tipo", id, "tipoMF", parametros, "nome")` | Adiciona uma função de pertinência |
 | `updateMF(pia, "tipo", id, idMF, "nome", "tipoMF", parametros)` | Atualiza uma função de pertinência |
-| `deleteMF(pia, "tipo", id, idMF)`                               | Remove uma função de pertinência   |
-
-### Regras
-
-| Comando                                       | Descrição                     |
-| --------------------------------------------- | ----------------------------- |
-| `addRule(pia, antecedent, consequent)`        | Adiciona uma regra ao sistema |
-| `updateRule(pia, id, antecedent, consequent)` | Atualiza uma regra            |
-| `deleteRule(pia, id)`                         | Remove uma regra              |
+| `deleteMF(pia, "tipo", id, idMF)` | Remove uma função de pertinência |
+| `addRule(pia, antecedent, consequent)` | Adiciona uma regra ao sistema |
+| `updateRule(pia, id, antecedent, consequent)` | Atualiza uma regra |
+| `deleteRule(pia, id)` | Remove uma regra |
 
 ## Exemplo de Uso
 
